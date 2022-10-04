@@ -1,0 +1,17 @@
+[package]
+name = "seldom_interop"
+version = "0.0.1"
+authors = [ "Seldom" ]
+edition = "2021"
+description = "Interoperability traits for Bevy components"
+readme = "README.md"
+repository = "https://github.com/Seldom-SE/seldom_interop"
+license = "MIT OR Apache-2.0"
+keywords = [ "gamedev", "bevy" ]
+categories = [ "game-development" ]
+
+[dependencies]
+bevy = { version = "0.8", default-features = false }
+
+[dev-dependencies]
+bevy = "0.8"
