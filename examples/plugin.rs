@@ -1,4 +1,4 @@
-//! This is a runnable version of the example in README.md
+// This is a runnable version of the example in README.md
 
 use std::marker::PhantomData;
 
@@ -31,7 +31,7 @@ fn main() {
 }
 
 fn init(mut commands: Commands) {
-    commands.spawn().insert(Transform::default());
+    commands.spawn(Transform::default());
 }
 
 fn log(transforms: Query<&Transform>) {
