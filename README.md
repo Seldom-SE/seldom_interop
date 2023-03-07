@@ -11,6 +11,10 @@ with other third-party plugins that operate on such components. It currently onl
 traits for positional components, and I will add more traits as needed. If you want
 other interoperability traits for your plugin, please submit an issue!
 
+This plugin is still being maintained, but it will stop being maintained when `seldom_pixel` stops
+depending on it in a future update. The license is permissive, so feel free to fork or copy
+the source code into your project!
+
 ## Features
 
 * Position traits: `Position2` and `Position3`
@@ -56,6 +60,7 @@ fn my_system<T: Position2<Position = Vec2>>(mut positions: Query<&mut T>, time: 
 
 | Bevy | `seldom_interop` |
 | ---- | ---------------- |
+| 0.10 | 0.3              |
 | 0.9  | 0.2              |
 | 0.8  | 0.1              |
 

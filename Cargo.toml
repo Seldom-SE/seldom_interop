@@ -1,6 +1,6 @@
 [package]
 name = "seldom_interop"
-version = "0.2.0"
+version = "0.3.0-dev"
 authors = [ "Seldom" ]
 edition = "2021"
 description = "Interoperability traits for Bevy components"
@@ -11,7 +11,7 @@ keywords = [ "gamedev", "bevy" ]
 categories = [ "game-development" ]
 
 [dependencies]
-bevy = { version = "0.9", default-features = false }
+bevy = { version = "0.10", default-features = false }
 
 [dev-dependencies]
-bevy = "0.9"
+bevy = "0.10"
