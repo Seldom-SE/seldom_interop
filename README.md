@@ -11,9 +11,9 @@ with other third-party plugins that operate on such components. It currently onl
 traits for positional components, and I will add more traits as needed. If you want
 other interoperability traits for your plugin, please submit an issue!
 
-This plugin is still being maintained, but it will stop being maintained when `seldom_pixel` stops
-depending on it in a future update. The license is permissive, so feel free to fork or copy
-the source code into your project!
+This plugin is still being maintained, but it may stop being maintained if I decide to merge its
+functionality into `seldom_map_nav`. The license is permissive, so feel free to fork or copy the
+source code into your project!
 
 ## Features
 
