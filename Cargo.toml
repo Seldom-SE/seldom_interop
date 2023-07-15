@@ -11,7 +11,7 @@ keywords = [ "gamedev", "bevy" ]
 categories = [ "game-development" ]
 
 [dependencies]
-bevy = { version = "0.10", default-features = false }
+bevy = { version = "0.11", default-features = false }
 
 [dev-dependencies]
-bevy = "0.10"
+bevy = "0.11"

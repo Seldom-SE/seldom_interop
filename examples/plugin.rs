@@ -9,7 +9,7 @@ struct MyPlugin<T: Position2<Position = Vec2> = Transform>(PhantomData<T>);
 
 impl<T: Position2<Position = Vec2>> Plugin for MyPlugin<T> {
     fn build(&self, app: &mut App) {
-        app.add_system(my_system::<T>);
+        app.add_systems(Update, my_system::<T>);
     }
 }
 
@@ -23,10 +23,9 @@ fn my_system<T: Position2<Position = Vec2>>(mut positions: Query<&mut T>, time: 
 
 fn main() {
     App::new()
-        .add_plugins(DefaultPlugins)
-        .add_plugin(MyPlugin::<Transform>(default()))
-        .add_startup_system(init)
-        .add_system(log)
+        .add_plugins((DefaultPlugins, MyPlugin::<Transform>(PhantomData)))
+        .add_systems(Startup, init)
+        .add_systems(Update, log)
         .run();
 }
 
