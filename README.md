@@ -60,6 +60,7 @@ fn my_system<T: Position2<Position = Vec2>>(mut positions: Query<&mut T>, time: 
 
 | Bevy | `seldom_interop` |
 | ---- | ---------------- |
+| 0.11 | 0.4              |
 | 0.10 | 0.3              |
 | 0.9  | 0.2              |
 | 0.8  | 0.1              |
