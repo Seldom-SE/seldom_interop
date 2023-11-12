@@ -1,6 +1,6 @@
 [package]
 name = "seldom_interop"
-version = "0.4.0"
+version = "0.5.0"
 authors = [ "Seldom" ]
 edition = "2021"
 description = "Interoperability traits for Bevy components"
