@@ -4,16 +4,14 @@
 [![MIT/Apache 2.0](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/Seldom-SE/seldom_interop#license)
 [![Crates.io](https://img.shields.io/crates/d/seldom_interop.svg)](https://crates.io/crates/seldom_interop)
 
+This plugin is no longer maintained! It's functionality has been merged into `seldom_map_nav`.
+
 `seldom_interop` is a crate featuring interoperability traits for Bevy components. This helps
 apps and third-party plugins, that use alternative components to represent concepts
 such as position instead of using the built-in components such as `Transform`, interoperate
 with other third-party plugins that operate on such components. It currently only features
 traits for positional components, and I will add more traits as needed. If you want
 other interoperability traits for your plugin, please submit an issue!
-
-This plugin is still being maintained, but it may stop being maintained if I decide to merge its
-functionality into `seldom_map_nav`. The license is permissive, so feel free to fork or copy the
-source code into your project!
 
 ## Features
 
